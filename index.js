@@ -373,7 +373,7 @@ window.addEventListener('keyup', (e) => {
 });
 
 let clicked = false;
-window.addEventListener('load', (event) => {
+window.addEventListener('load', () => {
   if (!clicked) audio.Map.play();
   clicked = true;
 });
